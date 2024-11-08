@@ -38,7 +38,7 @@ public class BioskopWithScanner12 {
                             System.out.println("Kursi sudah terisi!");
                         }
                     } else {
-                        System.out.println("Baris dan kolom tidak valid");
+                        System.out.println("Kursi tidak tersedia!");
                     }
 
                     System.out.print("Input penonton lainnya? (y/n): ");
