@@ -36,6 +36,7 @@ public class BioskopWithScanner12 {
                             System.out.println("Data penonton berhasil diinput!");
                         } else {
                             System.out.println("Kursi sudah terisi!");
+                            continue;
                         }
                     } else {
                         System.out.println("Kursi tidak tersedia!");
@@ -52,7 +53,7 @@ public class BioskopWithScanner12 {
                 System.out.println("Daftar penonton:");
                 for (int i = 0; i < 4; i++) {
                     for (int j = 0; j < 2; j++) {
-                        System.out.print((penonton[i][j] != null ? penonton[i][j] : "null") + " ");
+                        System.out.print((penonton[i][j] != null ? penonton[i][j] : "***") + " ");
                     }
                     System.out.println();
                 }
